@@ -39,6 +39,7 @@ body{
     font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
     position: relative;
+    background: white;
 }
 
 
@@ -49,7 +50,8 @@ body{
     width: 100%;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px) ;
+    backdrop-filter: blur(10px) ; 
+    
 }
 
 #logo{ 
@@ -119,6 +121,9 @@ body{
 #about{ 
     border: 2px solid red;
 }
+.about-container{ 
+    margin-top: 3.8%;
+}
 
 #about-header{ 
     border: 2px solid yellow;
@@ -153,13 +158,60 @@ body{
 }
 
 #image-of-developer{ 
-    width: 10%;
+    width: 50%;
     border-radius: 50%;
 
 }
 
 #image-caption{ 
     font-size: 1rem;
+}
+
+.barcode-text{ 
+    font-family: 'Libre Barcode 39 Text', cursive;
+} 
+
+#developer{ 
+    display: flex;
+    width: 100%;
+    border: 5px solid aqua;
+}
+
+
+#image-about-container{ 
+    border: 5px solid burlywood;
+}
+
+.content-developer{ 
+    border: 5px solid brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skills-container{ 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-img{ 
+    width: 30%;
 }
 
 
