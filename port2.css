@@ -47,7 +47,9 @@ body{
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) ;
 }
 
 #logo{ 
@@ -87,7 +89,7 @@ body{
     border: 1px solid gold;
 }
 
-#cover-image{ 
+#home{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +114,52 @@ body{
 
 #owl-logo{
     width: 15%;
+}
+
+#about{ 
+    border: 2px solid red;
+}
+
+#about-header{ 
+    border: 2px solid yellow;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.about-menu-container{ 
+    border: 2px solid blue;
+}
+
+#menu-content-selector{ 
+    border: 2px solid green;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-link{
+    border: 2px solid pink;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+}
+
+.menu-link:hover{ 
+    background-color: black;
+    color:white;
+    border: 2px solid gold;
+}
+
+#image-of-developer{ 
+    width: 10%;
+    border-radius: 50%;
+
+}
+
+#image-caption{ 
+    font-size: 1rem;
 }
 
 
