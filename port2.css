@@ -118,32 +118,27 @@ body{
     width: 15%;
 }
 
-#about{ 
-    border: 2px solid red;
+#about{      
+    border: 2px solid transparent;
 }
 .about-container{ 
     margin-top: 3.8%;
 }
 
 #about-header{ 
-    border: 2px solid yellow;
+   
     text-align: center;
     margin-bottom: 2%;
 }
 
-.about-menu-container{ 
-    border: 2px solid blue;
-}
 
 #menu-content-selector{ 
-    border: 2px solid green;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
 }
 
 .menu-link{
-    border: 2px solid pink;
     text-decoration: none;
     color: black;
     width: 100%;
@@ -163,28 +158,98 @@ body{
 
 }
 
-#image-caption{ 
+.image-caption{ 
     font-size: 1rem;
 }
 
 .barcode-text{ 
     font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 1.2rem;
 } 
 
 #developer{ 
     display: flex;
     width: 100%;
-    border: 5px solid aqua;
 }
-
 
 #image-about-container{ 
-    border: 5px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.content-developer{ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
-.content-developer{ 
-    border: 5px solid brown;
+#letter-from-dev{ 
+    font-size: 85%;
 }
+
+#areas-expert{ 
+    padding:3% ;
+}
+
+#edu-about{ 
+    padding: 1%;
+    padding-left: 0%;
+    font-size: 85%;
+}
+.edu-about{ 
+    display: flex;
+    padding-top: 2%;
+    width: 100%;
+}
+
+#image-of-mmu{ 
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+#edu-content{ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.image-fig{ 
+    width: 100%;
+    text-align: center;
+}
+
+#mmu-link{ 
+    width: 30%;
+    text-decoration: none;
+    color: black;
+}
+
+#mmu-link:hover{ 
+    background: black;
+    color: white;
+    border: 2px solid gold;
+}
+
+#skills-about{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 85%;
+    padding: 1%;
+    padding-left: 0;
+}
+.skills-img{ 
+    padding: 1%;
+
+}
+
+
+
 
 
 
@@ -211,7 +276,7 @@ body{
 }
 
 .skills-img{ 
-    width: 30%;
+    width: 50%;
 }
 
 
