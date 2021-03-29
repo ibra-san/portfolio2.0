@@ -88,7 +88,8 @@ body{
     background-color: black;
     color: white;
     border-radius: 2rem;
-    border: 1px solid gold;
+    border-bottom: 5px solid gold;
+    
 }
 
 #home{ 
@@ -129,6 +130,8 @@ body{
    
     text-align: center;
     margin-bottom: 2%;
+    background-color: gold;
+    padding: 1%;    
 }
 
 
@@ -136,6 +139,7 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+
 }
 
 .menu-link{
@@ -143,13 +147,17 @@ body{
     color: black;
     width: 100%;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
+    background-color: darkred;
+    border-radius: 2rem;
+    color: white;
+
 }
 
 .menu-link:hover{ 
     background-color: black;
     color:white;
-    border: 2px solid gold;
+    border-radius: 2rem;
 }
 
 #image-of-developer{ 
@@ -169,6 +177,7 @@ body{
 
 #developer{ 
     display: flex;
+    padding-top: 5% ;
     width: 100%;
 }
 
@@ -189,11 +198,12 @@ body{
 }
 
 #areas-expert{ 
-    padding:3% ;
+    width: 50%;
+    padding:2% ;
 }
 
 #edu-about{ 
-    padding: 1%;
+    margin-top: 5%;
     padding-left: 0%;
     font-size: 85%;
 }
@@ -230,9 +240,9 @@ body{
 }
 
 #mmu-link:hover{ 
-    background: black;
+    background: blue;
     color: white;
-    border: 2px solid gold;
+
 }
 
 #skills-about{ 
@@ -244,11 +254,133 @@ body{
     padding-left: 0;
 }
 .skills-img{ 
-    padding: 1%;
+    margin-top: 3%; 
 
 }
 
 
+.back-to-menu{ 
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+    background-color: darkred;
+    width: auto;
+    padding:2%;
+    border-radius: 2rem;
+    border-bottom: 5px solid transparent;
+    align-self: center;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.back-to-menu:hover{ 
+    border-bottom: 5px solid gold;
+    background-color: black;
+}
+
+#mission-content-container{ 
+    display: flex;
+}
+#main-content{ 
+    display: flex;
+    align-items: center;
+}
+#mission-header{ 
+    text-align: center;
+}
+#main-text{ 
+    font-size: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects{ 
+    display: flex;
+    height: 100%;
+    border: 2px solid green;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+}
+
+
+#pro-header{ 
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3.8%;
+    background-color: white;
+    padding: 1%;
+    color: black;
+    
+}
+
+#pro-image-container{ 
+    display: flex;
+    align-content: center;
+
+}
+
+#picture-container{
+    width: 100%;
+    display: flex;
+}
+
+#pro-image{ 
+    width: 100%;
+}
+
+#contacts{ 
+    height: 100vh;
+    border: 2px solid transparent;
+}
+#contacts-content-container{ 
+    margin-top: 3.8%;
+    
+}
+
+.header-text{ 
+display: flex;
+justify-content: center;
+}
+
+#contacts-header{ 
+    text-align: center;
+    margin-bottom: 4%;
+    background-color: gold;
+    padding: 1%;
+}
+
+#contacts-image-container{ 
+    display: flex;
+    justify-content: center;
+}
+
+#contacts-image{ 
+    width: 50%; 
+}
+
+.social-media-container{ 
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    
+   
+    
+}
+
+.social-buttons{ 
+    text-decoration: none;
+    color: black;
+    font-size: 6rem;
+    width: 100%;
+}
+
+.social-buttons:hover{ 
+    background-color: blue;
+    color: white;
+}
 
 
 
