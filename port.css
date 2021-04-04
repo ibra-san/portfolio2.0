@@ -124,6 +124,7 @@ body{
 }
 .about-container{ 
     margin-top: 5.5%;
+    height: 100vh;
 }
 
 #section-header{ 
@@ -390,6 +391,7 @@ body{
 
 .social-media-container{ 
     text-align: center;
+    font-size: 1vw;
 }
 
 .social-buttons{ 
@@ -446,7 +448,71 @@ textarea{
     font-family: 'Roboto Slab', serif;
 }
 
+.back-to-menu{ 
+    font-size: 1.2vw;
+}
+
+form h1{ 
+    text-align: center;
+}
+
+input[placeholder]{ 
+    font-size: 1vw;
+}
+textarea[placeholder]{ 
+    font-size: 1vw;
+}
+input:focus{ 
+   outline: none;
+}
+
+textarea:focus{ 
+    outline: none;
+}
 
 
+ button[type="submit"]{ 
+    font-size:1vw;
+ }
 
+@media (max-width:700px) and (min-width:235px) {
+    
+    body{ 
+        font-family: 'Roboto Slab', serif;
+        background: white;
+        font-size: 2.2vw;
+    }
+
+
+    #projects{ 
+        width: 80%;
+        margin-left:10%;
+        border: 2px solid transparent;
+        height: 100vh;
+    }
+
+    .projects-container{ 
+        margin-top: 5.5%;
+    }
+    
+    .social-buttons{
+        font-size: 7vw;
+    }
+
+    form h1{ 
+        text-align: center;
+    }
+
+    input[placeholder]{ 
+        font-size: 2vw;
+    }
+    textarea[placeholder]{ 
+        font-size: 2vw;
+    }
+
+    button[type="submit"]{ 
+        font-size:2vw;
+    }
+
+}
 
